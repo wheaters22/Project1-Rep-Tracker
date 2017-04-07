@@ -1,3 +1,8 @@
+
+$("#work-btn").on("click", function(){
+
+
+
 $.ajax({
         method: 'GET',
         url: 'https://raw.githubusercontent.com/unitedstates/congress-legislators/master/legislators-current.yaml'
@@ -18,3 +23,5 @@ $.ajax({
         });
 
     });
+
+});
