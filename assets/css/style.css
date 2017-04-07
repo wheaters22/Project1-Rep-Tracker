@@ -41,15 +41,17 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
-
+.copyright {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
 .container {
   align-content: left;
 }
-
 .navbar-right a {
   color: #5dcfb1;
 }
-
 .navbar-custom {
   position: absolute;
   top: 0;
@@ -284,7 +286,6 @@ hr.small {
 #footer {
   padding: 50px 0 65px;
 }
-
 footer .list-inline {
   margin: 0;
   padding: 0;
